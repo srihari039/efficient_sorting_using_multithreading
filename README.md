@@ -27,6 +27,8 @@ The source code 1 creates an array of size 2 raised to the power of S and then t
 
 The source code 2 does the same way as source code 1 does till merging. The merge process is carried out in a different way, that the merging is done with threads here too, in a way that the threads becomes halves of the previously existing threads, each thread merging two sorted segments at a time and then continues till the count reaches one, suggesting the array is completely sorted.
 
+Tested for inputs for values S <= 12 and T <= S
+
 Comments are written in detail in source codes.
 Any improvements in the code are highly appreciated.
 Input file is attatched for reference.
